@@ -3,10 +3,10 @@
 #include <time.h>
 /**
  * main - entry point
- * Description: output displayed if generated number is positive, negative or zero
+ * Description: prints number type
  * Return: Always 0 if successful
  */
-int main (void)
+int main(void)
 {
 	int n;
 
@@ -16,7 +16,7 @@ int main (void)
 		printf("%d is negative\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
-	else 
+	else
 		printf("%d is positive\n", n);
 	return (0);
 }
