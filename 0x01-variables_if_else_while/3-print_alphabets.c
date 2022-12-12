@@ -31,7 +31,7 @@ int main(void)
 			letter = 'A';
 			for (; letter <= 'Z'; letter++)
 			{
-				putchar(letter)
+				putchar(letter);
 			}
 			break;
 		}
