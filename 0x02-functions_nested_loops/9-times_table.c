@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * times_table: prints table
+ * times_table - prints table
  *
  * Return: Always 0.
  */
@@ -44,7 +45,7 @@ void times_table(void)
 				}
 			}
 		}
-		_putchar('\n');
+		-putchar('\n');
 	}
 }
 
