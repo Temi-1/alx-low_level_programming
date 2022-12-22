@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-/*
- * function main - magic
- * Return: 0 always
- */
-
 int main(void)
 {
 	int n;
@@ -14,6 +9,8 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 /*
+ * write your line of code here...
+ * Remember:
  * main - magic
  * - you are not allowed to use a
  *   - you are not allowed to modify p
